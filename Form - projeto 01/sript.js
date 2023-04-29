@@ -32,3 +32,28 @@ function nomeFuncao() {
     campoResultado.innerText = calculo;
     containerResposta.style.display = "block"
 }
+
+function testandonumero(){
+    let Idade = document.querySelector("#Numero2").value;
+    let resultado2 = document.querySelector("#resultado");
+    let Resultado = 18
+
+    if( Idade >= Resultado ){
+        resultado2.innerText += (" Maior de idade")
+    } else{
+        resultado2.innerText += (" Menor de idade")
+    }
+    
+}
+
+
+function Exercicio3(){
+    let numPar1 = document.querySelector("#numPar1")
+    let resto = numPar1 % 2
+
+    if(resto == 0){
+        ParouImpar.innerText = ("PAR")
+    } else{
+        ParouImpar.innerText = ("IMPAR")
+    }
+}
